@@ -1,0 +1,9 @@
+.btn{
+    border: 1px solid $border-primary-dk2 !important;
+    background-color: $bg-white;
+    color: $text-black;
+    display: flex;
+    align-items: center;
+    justify-content: start; 
+    gap: .5rem;
+}

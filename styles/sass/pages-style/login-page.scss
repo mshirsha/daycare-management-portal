@@ -1,0 +1,110 @@
+
+.login-page-conatiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    @media(max-width:1086px) {
+        grid-template-columns: 1fr;  
+    }
+}
+.hero-section{
+    grid-column: 1/2;
+    height: 100%;
+    @media(max-width:1086px) {
+        grid-column: unset;
+        display: none;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.login-form-container{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 6rem 1fr 6rem;
+    @media(max-width:1086px) {
+        grid-column: 1/3;
+    }
+    @media(max-width:500px) {
+        grid-template-columns: 2rem 1fr 2rem;
+    }
+}
+.login-form-wrap{
+   padding-top: 2rem;
+   grid-column: 2/3;
+}
+
+.login-form{
+    grid-column: 2/3;
+}
+.title-1{
+    font-size: 28px;
+    font-weight: 700;
+    color: $bg-primary-dk2;
+    margin-bottom: 2rem;
+}
+.login-form-logo{
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.login-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3rem;
+    margin-bottom: 2rem;
+}
+.login-label{
+    font-size: 15px;
+    font-weight: 700;
+    
+
+}
+.login-input{
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: .3rem;
+}
+.login-checkbox{
+    margin-bottom: 2rem;
+}
+.forgot-password-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    a{
+        text-decoration: none;
+        padding-bottom: .3rem;
+        border-bottom: 1px solid $border-primary-dk1;
+        color: $text-primary-dk1;
+    }
+}
+.help-note{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.support-ticket-text{
+    color: $text-primary-dk1;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.privacy-conditons-container{
+    text-align: center;
+    .privacy-conditons-text{
+        color: $text-primary-dk1;
+    }
+    .dot{
+        display: inline-block;
+        width: 4px;
+        height: 4px;
+        background-color: $bg-primary-dk1;
+        border-radius: .5rem;
+    }
+}

@@ -1,0 +1,131 @@
+.side-bar {
+    background-color:  #FFF;
+    box-shadow: 0 0px 14px -4px lightblue;
+    width: 18rem;
+    height: calc(100% - 155px);
+    position: fixed;
+    // overflow-y: scroll;
+
+
+    @media(max-width:1086px) {
+        display: none;
+    }
+
+    // @media(max-width:768px) {
+    //     display: none;
+
+    // }
+
+
+
+}
+
+.menu-list {
+    padding-left: unset;
+    margin-bottom: 2rem;
+
+    li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 13px;
+            padding: 16px 20px;
+            color: black;
+            svg {
+                fill: $primary-dk-2;
+            }
+           
+        }
+
+
+
+    }
+}
+.sidebar-link:hover {
+    background-color: $bg-primary-lt6;
+   
+}
+
+.sidebar-link:active {
+    background-color: $bg-primary-dk1;
+    color: white !important;
+}
+
+.sidebar-link.active {
+    background-color: $bg-primary-dk1;
+    color: white !important;
+}
+
+.sidebar-link.active svg{
+    fill: white;
+}
+
+.sidebar-link:active svg{
+    fill: white;
+}
+
+
+
+
+
+.need-support-outter-container {
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    .need-support-card {
+        background-color: $bg-primary-lt6;
+        // border: 1px solid gray;
+        border-radius: .5rem;
+        padding: 1rem;
+
+        .need-support-head {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: .5rem;
+            padding-bottom: 1rem;
+            margin-bottom: .7rem;
+            border-bottom: 1px solid lightgray;
+            svg{
+                fill: rgb(121, 120, 120);
+            }
+        }
+
+        .need-support-body {
+            button {
+                margin-bottom: 1rem;
+                color: $text-primary-dk2;
+                font-weight: 500;
+
+                svg {
+                    width: 14px;
+                    height: 14px;
+                    fill: #0041A3;
+                }
+            }
+            button:hover{
+                color: white;
+            }
+            button:hover svg{
+                fill: white;
+            }
+            
+
+
+            .need-support-wrap {
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                margin-bottom: 1rem;
+
+                span:nth-of-type(1) {
+                    color: $text-gray-lt1;
+                }
+            }
+        }
+    }
+}

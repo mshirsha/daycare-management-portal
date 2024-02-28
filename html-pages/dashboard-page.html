@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" defer href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/sass/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class=" fixed-top">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <a href="#" class="logo-container">
+                <div class="big-screen-logo">
+                    <img src="../styles/media/logos/Frame 39467.svg" alt="">
+                </div>
+
+                <div class="small-screen-logo">
+                    <img src="../styles/media/logos/Frame 38927.svg" alt="">
+
+                </div>
+
+
+            </a>
+
+            <!-- Header Actions -->
+            <div class="header-actions">
+
+                <button class="notification-btn">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5C5C5C" class="bi bi-bell"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6" />
+                    </svg>
+                    <span class="text-rg-1 fw-semibold hide-text">Notification</span>
+                    <div class="notification-badge">2</div>
+                </button>
+                <div class="notification-dropdown">
+                    <div>
+                        <span class="fw-bold  ">Notifications</span>
+                        <button type="button" class="btn-close" aria-label="Close"></button>
+                    </div>
+                    <ul>
+                        <li>
+                            <p class="fw-semibold">Notification Header</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi alias fugit eveniet.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="fw-semibold">Notification Header</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi alias fugit eveniet.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="fw-semibold">Notification Header</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi alias fugit eveniet.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="fw-semibold">Notification Header</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi alias fugit eveniet.
+                            </p>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <button class="notification-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5C5C5C" class="bi bi-globe"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
+                    </svg>
+                    <span class="text-rg-1 fw-semibold  hide-text">English</span>
+                </button>
+                <!-- <button class="menu-dropdown-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                        class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                    </svg>
+                </button> -->
+
+
+
+
+
+
+                <div class=" account-dropdown active">
+                    <button class="btn btn-secondary dropdown-toggle account-dropdown-btn" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../styles/media/logos/Frame 38929.svg" alt="">
+                        <span class="text-rg-1">Mark Johnson</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item bg-gray-lt6" href="#">View Profile</a></li>
+                        <li><a class="dropdown-item" href="../index.html">Log Out</a> </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="menu-dropdown-container">
+            <div class="menu-inner-content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="#5C5C5C" class="bi bi-globe"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
+                </svg>
+                <span>My Account</span>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="#5C5C5C" class="bi bi-globe"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
+                </svg>
+                <span>Logout</span>
+            </div>
+        </div>
+        <div class="header-sub-nav">
+
+            <div class="sub-nav-text">
+
+                <p class="fw-medium header-text">Welcome to <strong class="text-primary-dk-1"> Atlantas Best Day
+                        care</strong></p>
+                <p class="text-gray-lt-1">Provider ID <strong class="fw-bold text-black">123456</strong></p>
+
+
+                <p class="text-gray-lt-1 license-num">License Number <strong class="text-black">66614427848</strong></p>
+
+
+            </div>
+
+        </div>
+
+
+    </header>
+    <!-- Humburger menu -->
+    <div class="humburger-menu-container">
+        <div class="humburger-inner-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+            <h3>Dashboard</h3>
+
+        </div>
+        <!-- Humburger menu dropdown  -->
+        <div class="humburger-dropdown">
+            <aside class="side-bar  humburger-menu ">
+                <ul class="menu-list">
+                    <li>
+                        <a href="#" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-speedometer2" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4M3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707M2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10m9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5m.754-4.246a.39.39 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.39.39 0 0 0-.029-.518z" />
+                                <path fill-rule="evenodd"
+                                    d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A8 8 0 0 1 0 10m8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3" />
+                            </svg>
+                            <span>Dashboard</span>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-file-earmark" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z" />
+                            </svg>
+                            <span>My Application</span>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-building" viewBox="0 0 16 16">
+                                <path
+                                    d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z" />
+                                <path
+                                    d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3z" />
+                            </svg>
+                            <span> Sites and Classes</span>
+                        </a>
+
+                    </li>
+                    <!-- <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-house-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                            </svg>
+                            <div>Waitlists</div>
+                        </a>
+    
+                    </li> -->
+                    <li>
+                        <a href="" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-cash" viewBox="0 0 16 16">
+                                <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
+                                <path
+                                    d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2z" />
+                            </svg>
+                            <span>Payments </span>
+                        </a>
+
+                    </li>
+
+                    <!--               
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-house-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                            </svg>
+                            <div>Manager Rosters</div>
+                        </a>
+    
+                    </li> -->
+                    <li>
+                        <a href="" class="sidebar-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-folder" viewBox="0 0 16 16">
+                                <path
+                                    d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a2 2 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139q.323-.119.684-.12h5.396z" />
+                            </svg>
+                            <span>Document Library</span>
+                        </a>
+
+                    </li>
+                    <!-- <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-house-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                            </svg>
+                            <div> Requests</div>
+                        </a>
+    
+                    </li> -->
+                    <!-- <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-house-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                            </svg>
+                            <div>Waivers</div>
+                        </a>
+    
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-house-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                            </svg>
+                            <div>Vist Reports</div>
+                        </a>
+    
+                    </li> -->
+
+
+                </ul>
+
+                <!--Need Support card  -->
+                <div class="need-support-outter-container">
+                    <div class="need-support-card">
+                        <div class="need-support-head">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-life-preserver" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m6.43-5.228a7.03 7.03 0 0 1-3.658 3.658l-1.115-2.788a4 4 0 0 0 1.985-1.985zM5.228 14.43a7.03 7.03 0 0 1-3.658-3.658l2.788-1.115a4 4 0 0 0 1.985 1.985zm9.202-9.202-2.788 1.115a4 4 0 0 0-1.985-1.985l1.115-2.788a7.03 7.03 0 0 1 3.658 3.658m-8.087-.87a4 4 0 0 0-1.985 1.985L1.57 5.228A7.03 7.03 0 0 1 5.228 1.57zM8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                            </svg>
+                            <span>Need Support?</span>
+                        </div>
+                        <div class="need-support-body">
+                            <button class="btn btn-primary">Log a Ticket
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
+                                    <path fill-rule="evenodd"
+                                        d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
+                                </svg>
+                            </button>
+                            <div class="need-support-wrap">
+                                <span>Phone</span>
+                                <span>800 (123-456)</span>
+                            </div>
+                            <div class="need-support-wrap">
+                                <span>Email</span>
+                                <span>Support@decal.go.gov </span>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </aside>
+
+        </div>
+    </div>
+
+
+    <!-- Body Container -->
+    <section class="dashboard-container">
+
+        <!-- Dashboard Sidebar -->
+        <aside class="side-bar">
+            <ul class="menu-list">
+                <li>
+                    <a href="#" class="sidebar-link active">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            class="bi bi-speedometer2" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4M3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707M2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10m9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5m.754-4.246a.39.39 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.39.39 0 0 0-.029-.518z" />
+                            <path fill-rule="evenodd"
+                                d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A8 8 0 0 1 0 10m8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3" />
+                        </svg>
+                        <span>Dashboard</span>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#" class="sidebar-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            class="bi bi-file-earmark" viewBox="0 0 16 16">
+                            <path
+                                d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z" />
+                        </svg>
+                        <span>My Application</span>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#" class="sidebar-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            class="bi bi-building" viewBox="0 0 16 16">
+                            <path
+                                d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z" />
+                            <path
+                                d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3z" />
+                        </svg>
+                        <span> Sites and Classes</span>
+                    </a>
+
+                </li>
+                <!-- <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-house-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                        </svg>
+                        <div>Waitlists</div>
+                    </a>
+
+                </li> -->
+                <li>
+                    <a href="" class="sidebar-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            class="bi bi-cash" viewBox="0 0 16 16">
+                            <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
+                            <path
+                                d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2z" />
+                        </svg>
+                        <span>Payments </span>
+                    </a>
+
+                </li>
+
+                <!--               
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-house-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                        </svg>
+                        <div>Manager Rosters</div>
+                    </a>
+
+                </li> -->
+                <li>
+                    <a href="" class="sidebar-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            class="bi bi-folder" viewBox="0 0 16 16">
+                            <path
+                                d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a2 2 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139q.323-.119.684-.12h5.396z" />
+                        </svg>
+                        <span>Document Library</span>
+                    </a>
+
+                </li>
+                <!-- <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-house-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                        </svg>
+                        <div> Requests</div>
+                    </a>
+
+                </li> -->
+                <!-- <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-house-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                        </svg>
+                        <div>Waivers</div>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-house-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                        </svg>
+                        <div>Vist Reports</div>
+                    </a>
+
+                </li> -->
+
+
+            </ul>
+
+            <!--Need Support card  -->
+            <div class="need-support-outter-container">
+                <div class="need-support-card">
+                    <div class="need-support-head">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-life-preserver" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m6.43-5.228a7.03 7.03 0 0 1-3.658 3.658l-1.115-2.788a4 4 0 0 0 1.985-1.985zM5.228 14.43a7.03 7.03 0 0 1-3.658-3.658l2.788-1.115a4 4 0 0 0 1.985 1.985zm9.202-9.202-2.788 1.115a4 4 0 0 0-1.985-1.985l1.115-2.788a7.03 7.03 0 0 1 3.658 3.658m-8.087-.87a4 4 0 0 0-1.985 1.985L1.57 5.228A7.03 7.03 0 0 1 5.228 1.57zM8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                        </svg>
+                        <span>Need Support?</span>
+                    </div>
+                    <div class="need-support-body">
+                        <button class="btn btn-primary">Log a Ticket
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
+                                <path fill-rule="evenodd"
+                                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
+                            </svg>
+                        </button>
+                        <div class="need-support-wrap">
+                            <span>Phone</span>
+                            <span>800 (123-456)</span>
+                        </div>
+                        <div class="need-support-wrap">
+                            <span>Email</span>
+                            <span>Support@decal.go.gov </span>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </aside>
+
+        <div class="main-container">
+
+            <!-- Main Container Header text  -->
+            <h3 class="main-container-header">Dashboard</h3>
+
+            <!-- Important Comunications -->
+            <div class="imp-comunication-container">
+                <h5>Important Comunications</h5>
+                <div class="panel success-alert m-b-20">
+
+                    <div class="icon-container  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0D7A01"
+                            class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                        </svg>
+
+                    </div>
+                    <div>
+                        <p> A information toast</p>
+                        <span class="text-rg-1">Notification message.</span>
+                    </div>
+
+                </div>
+                <div class="panel primary-alert m-b-20">
+                    <div class="icon-container  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0052CC"
+                            class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p> A information toast</p>
+                        <span class="text-rg-1">Notification message.</span>
+                    </div>
+
+
+                </div>
+                <div class="panel warning-alert m-b-20">
+                    <div class="icon-container  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#CCA000"
+                            class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p> A information toast</p>
+                        <span class="text-rg-1">Notification message.</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Application here -->
+            <section class="application-field-container">
+                <div class="application-field">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star" viewBox="0 0 16 16">
+                        <path
+                            d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+                    </svg>
+                    <div>
+                        <p><strong>Continuation Applications are open for the current school year. </strong>Please fill
+                            out the form.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="apply-btn-container">
+                    <a class="btn btn-primary apply-btn" href="./app-page.html" role="button">Apply Now</a>
+
+                </div>
+            </section>
+            <!-- Start Enrollment for Mobile-screen 
+            <section class="enrollment-container">
+                <div class=" enrollment-content">
+                    <p><strong>Informal Provider Application</strong></p>
+                    <p>Apply for your new Informal Provider Application Start Enrollment</p>
+                </div>
+                <div class="enrollment-btn-container">
+                    <a class="btn btn-primary enrollment-btn" href="./app-page.html" type="submit">Start Enrollment</a>
+                </div>
+
+            </section> -->
+
+            <!-- Service Features -->
+            <section class="service-feature-container">
+                <!-- Service Feature Card-1  -->
+                <div class="service-feature-card">
+                    <div class="service-card-head">
+                        <div class="check-circle-icon-container bg-success-lt6 text-success-dk-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-check2-circle" viewBox="0 0 16 16">
+                                <path
+                                    d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
+                                <path
+                                    d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
+                            </svg>
+                        </div>
+
+                        <p>Sites and Classes</p>
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-card-status-container">
+                            <div class="service-card-status">
+                                <div class="calender-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2M9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5" />
+                                    </svg>
+                                    <p class="text-gray-dk-2">Active sites</p>
+                                </div>
+                                <span class="bg-success-lt5 text-success-dk-1">5</span>
+
+                            </div>
+                            <div class="service-card-status">
+                                <div class="calender-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2M9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5" />
+                                    </svg>
+                                    <p class="text-gray-dk-2">Active Classes</p>
+                                </div>
+                                <span class="bg-success-lt5 text-success-dk-1">10</span>
+
+                            </div>
+                        </div>
+
+
+                        <div class="manage-btn-container">
+                            <button type="button" class="btn btn-primary">Manage</button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Service Feature Card-2  -->
+                <div class="service-feature-card">
+                    <div class="service-card-head">
+                        <div class="check-circle-icon-container bg-warning-lt6 text-alt2-dk-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-award" viewBox="0 0 16 16">
+                                <path
+                                    d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                            </svg>
+                        </div>
+
+                        <p>Rosters</p>
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-card-status-container">
+                            <div class="service-card-status">
+                                <div class="calender-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2M9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5" />
+                                    </svg>
+                                    <p class="text-gray-dk-2">Students </p>
+                                </div>
+                                <span class="bg-success-lt5 text-success-dk-1">88</span>
+
+                            </div>
+                            <div class="service-card-status">
+                                <div class="calender-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2M9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5" />
+                                    </svg>
+                                    <p class="text-gray-dk-2">Teachers</p>
+                                </div>
+                                <span class="bg-success-lt5 text-success-dk-1">4</span>
+
+                            </div>
+                            <div class="service-card-status">
+                                <div class="calender-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2M9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5" />
+                                    </svg>
+                                    <p class="text-gray-dk-2">Waitlist</p>
+                                </div>
+                                <span class="bg-warning-lt6 text-alt2-dk-2">20</span>
+
+                            </div>
+                        </div>
+
+
+                        <div class="manage-btn-container">
+                            <button type="button" class="btn btn-primary">Manage</button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Service Feature Card-3  -->
+                <div class="service-feature-card">
+                    <div class="service-card-head">
+                        <div class="check-circle-icon-container bg-alt1-lt6  text-alt1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-cash-stack" viewBox="0 0 16 16">
+                                <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
+                                <path
+                                    d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2z" />
+                            </svg>
+                        </div>
+
+                        <p>Payment</p>
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-card-status-container">
+                            <div class="service-card-status">
+                                <div class="calender-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2M9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5" />
+                                    </svg>
+                                    <p class="text-gray-dk-2">Total Amount</p>
+                                </div>
+                                <span class=" total-num bg-primary-lt5 text-primary-dk-1">$20,000</span>
+
+                            </div>
+                            <div class="service-card-status">
+                                <div class="calender-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2M9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5" />
+                                    </svg>
+                                    <p class="text-gray-dk-2">Last Remittance on </p>
+                                </div>
+                                <span class="remittance-time">12:01 AM(Mon)</span>
+
+                            </div>
+                        </div>
+
+
+                        <div class="manage-btn-container">
+                            <button type="button" class="btn btn-primary">Manage</button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- My Recent Application -->
+            <h3 class="recent-app-title">My Recent Application </h3>
+            <div class="recent-app-container ">
+                <div class="recent-app-details">
+                    <div>
+                        <p class="text-gray-dk-1">APPLICATION NUMBER</p>
+                        <p class="text-primary-dk-1">APL744845794</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-dk-1">TYPE</p>
+                        <P class="text-primary-dk-1">Continuation (With Changes)</P>
+                    </div>
+                    <div>
+                        <p class="text-gray-dk-1">STATUS</p>
+                        <div class="badge bg-gray-lt4 m-b-20 ">
+                            <span class="text-gray-dk-1">Not Submitted</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent-app-status">
+                    <div class="resume-app">
+                        <div class="info-text">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2" />
+                            </svg>
+                            <p class="text-gray-dk-2">Submit your application to receive the Pre-K Grant’s Benefit</p>
+                        </div>
+                        <div class="resume-app-btn-container">
+                            <button type="button" class="btn btn-primary app-btn ">Resume Application</button>
+                        </div>
+
+                    </div>
+                    <div class="">
+                        <div class="info-text">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2" />
+                            </svg>
+                            <p class="text-gray-dk-2">Get help with filling or submitting your application</p>
+                        </div>
+                        <div class="resume-app-btn-container">
+                            <button type="button" class="btn btn-primary  app-btn">Get Help</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- My Recent Application - Register foe Traning - Small Screen -  -->
+            <div class="register-container ">
+                <div class="rigister-details">
+                    <div>
+                        <p class="text-gray-dk-1">APPLICATION NUMBER</p>
+                        <p class="text-primary-dk-1">APL744845794</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-dk-1">TYPE</p>
+                        <P class="text-primary-dk-1">Continuation (With Changes)</P>
+                    </div>
+                    <div>
+                        <p class="text-gray-dk-1">STATUS</p>
+                        <div class="badge bg-alt2-dk1 m-b-20 ">
+                            <span class="text-white">Under Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="register-status">
+                    <div class="register-info-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2" />
+                        </svg>
+                        <p class="text-gray-dk-2">Register yourself for Orientation Training and complete the training
+                            by March 31, 2023</p>
+                    </div>
+                    <div class="register-training-btn">
+                        <button type="button" class="btn btn-primary text-primary-dk1 ">Register for Training</button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Upcoming Important Dates -->
+            <h4></h4>
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                        type="button" role="tab" aria-controls="nav-home" aria-selected="true">Upcoming Important
+                        Dates
+                    </button>
+                    <button class="nav-link second-nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                        aria-selected="false">Recent Remittance
+                        Statements
+                    </button>
+
+                </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tabContent">
+                <!-- first tab container -->
+                <div class="tab-pane hide-first-tab fade show active" id="nav-home" role="tabpanel"
+                    aria-labelledby="nav-home-tab">
+                    <!-- <div class="table-responsive"> -->
+
+                    <table class="table">
+                        <thead class=" table-head">
+                            <tr>
+                                <th>Event Name</th>
+                                <th>Description</th>
+                                <th>Beginning Date</th>
+                                <th>End Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <div>
+                                    <td data-head="Event Name">
+                                        <a href="#">Student Roster Open Date</a>
+                                    </td>
+                                    <td data-head="Description">This is the student roster open date</td>
+                                    <td data-head="Beginning Date">06/12/23</td>
+                                    <td data-head="End Date">06/19/2013</td>
+                                </div>
+
+                            </tr>
+                            <tr>
+                                <td data-head="Event Name">
+                                    <a href="#">Student Roster Count Date</a>
+                                </td>
+                                <td data-head="Description">This is the student roster open date</td>
+                                <td data-head="Beginning Date">06/20/23</td>
+                                <td data-head="End Date">06/27/2013</td>
+                            </tr>
+                            <tr>
+                                <td data-head="Event Name">
+                                    <a href="#">Student Roster Due Date</a>
+                                </td>
+                                <td data-head="Description">This is the student roster open date</td>
+                                <td data-head="Beginning Date">06/28/23</td>
+                                <td data-head="End Date">07/0/2013</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+
+
+
+                </div>
+
+                <!-- second tab container -->
+                <div class="tab-pane fade  second-tab " id="nav-profile" role="tabpanel"
+                    aria-labelledby="nav-profile-tab">
+
+                    <div class="table-responsive">
+
+                        <table class="table">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Event Name</th>
+                                    <th>Description</th>
+                                    <th>Beginning Date</th>
+                                    <th>End Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="#">Student Roster Open Date</a>
+                                    </td>
+                                    <td>This is the student roster open date</td>
+                                    <td>06/12/23</td>
+                                    <td>06/19/2013</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Student Roster Count Date</a>
+                                    </td>
+                                    <td>This is the student roster open date</td>
+                                    <td>06/20/23</td>
+                                    <td>06/27/2013</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Student Roster Due Date</a>
+                                    </td>
+                                    <td>This is the student roster open date</td>
+                                    <td>06/28/23</td>
+                                    <td>07/0/2013</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+            <!-- Video Resources and Quick Links  -->
+            <div class="resources-links-container m-b-80">
+                <!-- Video Resources -->
+                <div class="resources-links">
+                    <h3 class="">Video Placeholder</h3>
+
+                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/6Dt7DXL4VVc" frameborder="0"
+                        allowfullscreen></iframe>
+
+
+                </div>
+
+                <!-- Quick Links  -->
+                <div>
+                    <h3>Quick Links</h3>
+                    <div class="links-cards-container">
+
+                        <a href="#" class="quick-link-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                            </svg>
+                            <p>My Profile</p>
+                        </a>
+                        <a href="#" class="quick-link-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-calendar2-week-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5m9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5M8.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM3 10.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5m3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z" />
+                            </svg>
+                            <p>School Calendar</p>
+                        </a>
+                        <a href="#" class="quick-link-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-laptop" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5" />
+                            </svg>
+                            <p>My Reports</p>
+                        </a>
+                        <a href="#" class="quick-link-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-award" viewBox="0 0 16 16">
+                                <path
+                                    d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                            </svg>
+                            <p>My Document Library</p>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Learning Links / Material -->
+            <div class="learning-links-container">
+                <div class="learning-link-head">
+                    <h3>Learning Links</h3>
+                    <p>Access your learning material from here</p>
+                </div>
+                <div class="learning-material">
+                    <div>
+                        <div class="learning-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                <path
+                                    d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z" />
+                                <path
+                                    d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z" />
+                            </svg>
+                            <p>Introduction</p>
+                        </div>
+                        <div class="learning-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                <path
+                                    d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z" />
+                                <path
+                                    d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z" />
+                            </svg>
+                            <p>Early Childhood core Knowledge area</p>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="learning-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                <path
+                                    d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z" />
+                                <path
+                                    d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z" />
+                            </svg>
+                            <p>Childhood core Knowledge areas</p>
+                        </div>
+                        <div class="learning-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                <path
+                                    d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z" />
+                                <path
+                                    d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z" />
+                            </svg>
+                            <p>Early Childhood core Knowledge area</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="live-chat-conatiner">
+                <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chat-right" viewBox="0 0 16 16">
+                        <path
+                            d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z" />
+                    </svg>
+                </div>
+                <p>Live Chat</p>
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+</body>
+
+</html>

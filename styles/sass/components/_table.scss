@@ -1,0 +1,61 @@
+
+.table {
+    margin-bottom: unset;
+
+    .table-head {
+       
+        @media(max-width:768px) {
+            display: none;
+        }
+
+        tr {
+            padding-inline: 1rem;
+            
+            th {
+                padding: 14px 20px;
+                background-color: #F2F7FB;
+
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            padding-inline: 1rem;
+
+            @media(max-width:768px) {
+                display: flex;
+                flex-direction: column;
+                padding-inline: unset;
+            }
+
+            td {
+                padding: 14px 20px;
+
+                @media(max-width:768px) {
+                    border-bottom: unset;
+
+                }
+
+
+            }
+        }
+    }
+
+    @media(max-width:768px) {
+        tr:nth-of-type(2n+2) td {
+            background-color: rgb(236, 236, 236) !important;
+        }
+    }
+
+    @media (max-width:768px) {
+        td::before {
+            content: attr(data-head);
+            display: block;
+            font-weight: 700;
+
+        }
+    }
+
+
+}

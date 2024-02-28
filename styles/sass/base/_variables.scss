@@ -1,0 +1,715 @@
+
+// ////////Brand colors
+
+// Primary
+$primary-dk-3:#002152;
+$primary-dk-2:#0041A3;
+$primary-dk-1:#0052CC;
+$primary:#0066FF;
+$primary-lt-1:#3385FF;
+$primary-lt-2:#5C9DFF;
+$primary-lt-3:#85B6FF;
+$primary-lt-4:#ADCEFF;
+$primary-lt-5:#D6E7FF;
+$primary-lt-6:#EBF3FF;
+
+
+// Secondary
+
+$secondary-dk-3:#00353D;
+$secondary-dk-2:#005866;
+$secondary-dk-1:#008DA3;
+$secondary:#00B6D0;
+$secondary-lt-1:#00D4FE;
+$secondary-lt-2:#5CE9FF;
+$secondary-lt-3:#99F1FF;
+$secondary-lt-4:#C2F8FF;
+$secondary-lt-5:#D6FAFF;
+$secondary-lt-6:#EBFDFF;
+
+
+// Black color
+
+$black:#141414;
+
+// White color
+
+$white:#FFFFFF;
+
+
+////// Gray Scale
+
+
+$gray-dk-3:#323232;
+$gray-dk-2:#3D3D3D;
+$gray-dk-1:#5C5C5C;
+$gray:#7A7A7A;
+$gray-lt-1:#999999;
+$gray-lt-2:#ADADAD;
+$gray-lt-3:#C2C2C2;
+$gray-lt-4:#D6D6D6;
+$gray-lt-5:#EBEBEB;
+$gray-lt-6:#F5F5F5;
+
+
+
+/////////// System colors
+
+   
+ // Success color
+    
+$success-dk-3:#042900;
+$success-dk-2:#085100;
+$success-dk-1:#0D7A01;
+$success:#11A001;
+$success-lt-1:#51CB01;
+$success-lt-2:#90DE5D;
+$success-lt-3:#B0E78C;
+$success-lt-4:#C9EFB0;
+$success-lt-5:#D9F4C7;
+$success-lt-6:#EAF8E0;
+
+
+// Warning color
+
+   
+$warning-dk-3:#7A6000;
+$warning-dk-2:#A38000;
+$warning-dk-1:#CCA000;
+$warning:#F3BE00;
+$warning-lt-1:#FFCA0A;
+$warning-lt-2:#FCDF74;
+$warning-lt-3:#FFE68C;
+$warning-lt-4:#FFEFB7;
+$warning-lt-5:#FFF5D0;
+$warning-lt-6:#FFF8DF;
+
+
+
+// Danger color
+
+   
+$danger-dk-3:#5B0B0B;
+$danger-dk-2:#7F1010;
+$danger-dk-1:#B61616;
+$danger:#E42525;
+$danger-lt-1:#EB5C5C;
+$danger-lt-2:#EF8080;
+$danger-lt-3:#F4A4A4;
+$danger-lt-4:#FAC9C9;
+$danger-lt-5:#FBE5E5;
+$danger-lt-6:#FFF2F2;
+
+
+// Alternate colors
+
+// alt-1
+   
+$alt1-dk-3:#8A0567;
+$alt1-dk-2:#B4079A;
+$alt1-dk-1:#D908B9;
+$alt1:#EA66D7;
+$alt1-lt-1:#FC9CEE;
+$alt1-lt-2:#FEC9F6;
+$alt1-lt-3:#FEE0FA;
+$alt1-lt-4:#FFE6FC;
+$alt1-lt-5:#FFF0FD;
+$alt1-lt-6:#FFF6FE;
+
+
+
+// alt-2
+   
+$alt2-dk-3:#AD5F01;
+$alt2-dk-2:#D17201;
+$alt2-dk-1:#E47C01;
+$alt2:#FF9A23;
+$alt2-lt-1:#FEA842;
+$alt2-lt-2:#FFBE71;
+$alt2-lt-3:#FED3A0;
+$alt2-lt-4:#FFE3C2;
+$alt2-lt-5:#FFEBD3;
+$alt2-lt-6:#FFF1E0;
+
+
+// alt-3
+   
+$alt3-dk-3:#450271;
+$alt3-dk-2:#6505A3;
+$alt3-dk-1:#8D05E6;
+$alt3:#A62CF7;
+$alt3-lt-1:#C471FA;
+$alt3-lt-2:#D69AFE;
+$alt3-lt-3:#E1B6FE;
+$alt3-lt-4:#EBCFFE;
+$alt3-lt-5:#F4E4FF;
+$alt3-lt-6:#FCF7FF;
+
+
+
+
+// alt-4
+   
+$alt4-dk-3:#618105;
+$alt4-dk-2:#83AE08;
+$alt4-dk-1:#A3D80B;
+$alt4:#BBEF25;
+$alt4-lt-1:#D3FC5F;
+$alt4-lt-2:#DEFC89;
+$alt4-lt-3:#E9FEB0;
+$alt4-lt-4:#F0FECA;
+$alt4-lt-5:#F5FEDB;
+$alt4-lt-6:#FAFFEC;
+
+
+
+
+// Font Weight
+$font-thin:200;
+$font-regular:400;
+$font-medium:500;
+$font-sami-bold:600;
+$font-bold:700;
+
+
+////////////////////////////////////////////////// Base Spaces
+
+// x-small       small           regular                medium                 lg                   x-lg                  xx-lg
+
+// 2, 4, 6     8, 10, 12      14, 16, 18, 20         22, 24, 28,  32      36, 40, 44, 48,       52, 56, 60, 64,       72, 80, 90, 100, 120
+
+
+//  xsm, sm, rg, md, lg, xlg, xxlg
+
+// xsm
+$spc-xsm-1:0.125rem; // 2px
+$spc-xsm-2:0.25rem; // 4px
+$spc-xsm-3:0.375rem; // 6px
+
+// sm
+$spc-sm-1:0.5rem;  // 8px  
+$spc-sm-2:0.625rem;   // 10px
+$spc-sm-3:0.75rem;  // 12px
+
+// rg
+$spc-rg-1:0.875rem;   // 14px
+$spc-rg-2:1rem;      // 16px
+$spc-rg-3:1.125rem;   // 18px
+$spc-rg-4:1.25rem;   // 20px
+
+// md
+$spc-md-1:1.375rem;   // 22px
+$spc-md-2:1.5rem;   // 24px
+$spc-md-3:1.75rem;   // 28px
+$spc-md-4:2rem;   // 32px
+
+
+// lg
+$spc-lg-1:2.25rem;   // 36px 
+$spc-lg-2:2.5rem;   // 40px
+$spc-lg-3:2.75rem;   // 44px
+$spc-lg-4:3rem;    // 48px
+
+// xlg
+$spc-xlg-1:3.25rem;   // 52px
+$spc-xlg-2:3.5rem;   // 56px
+$spc-xlg-3:3.75rem;   // 60px 
+$spc-xlg-4:4rem;   // 64px
+
+
+// xxlg
+$spc-xxlg-1:4.5rem;  // 72px
+$spc-xxlg-2:5rem;  // 80px
+$spc-xxlg-3:5.625rem;  // 90px
+$spc-xxlg-4:6.25rem;  // 100px
+$spc-xxlg-5:7.5rem;  // 120px
+
+
+
+
+// Background colors
+
+// primary background color
+$bg-primary-dk3:$primary-dk-3;
+$bg-primary-dk2:$primary-dk-2;
+$bg-primary-dk1:$primary-dk-1;
+$bg-primary:$primary;
+$bg-primary-lt1:$primary-lt-1;
+$bg-primary-lt2:$primary-lt-2;
+$bg-primary-lt3:$primary-lt-3;
+$bg-primary-lt4:$primary-lt-4;
+$bg-primary-lt5:$primary-lt-5;
+$bg-primary-lt6:$primary-lt-6;
+
+
+
+// secondary background color
+$bg-secondary-dk3:$secondary-dk-3;
+$bg-secondary-dk2:$secondary-dk-2;
+$bg-secondary-dk1:$secondary-dk-1;
+$bg-secondary:$secondary;
+$bg-secondary-lt1:$secondary-lt-1;
+$bg-secondary-lt2:$secondary-lt-2;
+$bg-secondary-lt3:$secondary-lt-3;
+$bg-secondary-lt4:$secondary-lt-4;
+$bg-secondary-lt5:$secondary-lt-5;
+$bg-secondary-lt6:$secondary-lt-6;
+
+
+// gray background color
+$bg-gray-dk3:$gray-dk-3;
+$bg-gray-dk2:$gray-dk-2;
+$bg-gray-dk1:$gray-dk-1;
+$bg-gray:$gray;
+$bg-gray-lt1:$gray-lt-1;
+$bg-gray-lt2:$gray-lt-2;
+$bg-gray-lt3:$gray-lt-3;
+$bg-gray-lt4:$gray-lt-4;
+$bg-gray-lt5:$gray-lt-5;
+$bg-gray-lt6:$gray-lt-6;
+
+
+//  black background  color
+$bg-black:$black;
+
+
+//  white background  color
+$bg-white:$white;
+
+
+// success background color
+$bg-success-dk3:$success-dk-3;
+$bg-success-dk2:$success-dk-2;
+$bg-success-dk1:$success-dk-1;
+$bg-success:$success;
+$bg-success-lt1:$success-lt-1;
+$bg-success-lt2:$success-lt-2;
+$bg-success-lt3:$success-lt-3;
+$bg-success-lt4:$success-lt-4;
+$bg-success-lt5:$success-lt-5;
+$bg-success-lt6:$success-lt-6;
+
+
+
+// warning background color
+$bg-warning-dk3:$warning-dk-3;
+$bg-warning-dk2:$warning-dk-2;
+$bg-warning-dk1:$warning-dk-1;
+$bg-warning:$warning;
+$bg-warning-lt1:$warning-lt-1;
+$bg-warning-lt2:$warning-lt-2;
+$bg-warning-lt3:$warning-lt-3;
+$bg-warning-lt4:$warning-lt-4;
+$bg-warning-lt5:$warning-lt-5;
+$bg-warning-lt6:$warning-lt-6;
+
+
+
+// danger background color
+$bg-danger-dk3:$danger-dk-3;
+$bg-danger-dk2:$danger-dk-2;
+$bg-danger-dk1:$danger-dk-1;
+$bg-danger:$danger;
+$bg-danger-lt1:$danger-lt-1;
+$bg-danger-lt2:$danger-lt-2;
+$bg-danger-lt3:$danger-lt-3;
+$bg-danger-lt4:$danger-lt-4;
+$bg-danger-lt5:$danger-lt-5;
+$bg-danger-lt6:$danger-lt-6;
+
+
+// Alernate background color
+
+// alt-1  background clr
+$bg-alt1-dk3:$alt1-dk-3;
+$bg-alt1-dk2:$alt1-dk-2;
+$bg-alt1-dk1:$alt1-dk-1;
+$bg-alt1:$alt1;
+$bg-alt1-lt1:$alt1-lt-1;
+$bg-alt1-lt2:$alt1-lt-2;
+$bg-alt1-lt3:$alt1-lt-3;
+$bg-alt1-lt4:$alt1-lt-4;
+$bg-alt1-lt5:$alt1-lt-5;
+$bg-alt1-lt6:$alt1-lt-6;
+
+
+
+// alt-2  background clr
+$bg-alt2-dk3:$alt2-dk-3;
+$bg-alt2-dk2:$alt2-dk-2;
+$bg-alt2-dk1:$alt2-dk-1;
+$bg-alt2:$alt2;
+$bg-alt2-lt1:$alt2-lt-1;
+$bg-alt2-lt2:$alt2-lt-2;
+$bg-alt2-lt3:$alt2-lt-3;
+$bg-alt2-lt4:$alt2-lt-4;
+$bg-alt2-lt5:$alt2-lt-5;
+$bg-alt2-lt6:$alt2-lt-6;
+
+
+
+// alt-3  background clr
+$bg-alt3-dk3:$alt3-dk-3;
+$bg-alt3-dk2:$alt3-dk-2;
+$bg-alt3-dk1:$alt3-dk-1;
+$bg-alt3:$alt3;
+$bg-alt3-lt1:$alt3-lt-1;
+$bg-alt3-lt2:$alt3-lt-2;
+$bg-alt3-lt3:$alt3-lt-3;
+$bg-alt3-lt4:$alt3-lt-4;
+$bg-alt3-lt5:$alt3-lt-5;
+$bg-alt3-lt6:$alt3-lt-6;
+
+
+
+//  alt-4 background clr
+$bg-alt4-dk3:$alt4-dk-3;
+$bg-alt4-dk2:$alt4-dk-2;
+$bg-alt4-dk1:$alt4-dk-1;
+$bg-alt4:$alt4;
+$bg-alt4-lt1:$alt4-lt-1;
+$bg-alt4-lt2:$alt4-lt-2;
+$bg-alt4-lt3:$alt4-lt-3;
+$bg-alt4-lt4:$alt4-lt-4;
+$bg-alt4-lt5:$alt4-lt-5;
+$bg-alt4-lt6:$alt4-lt-6;
+
+
+
+
+
+
+// text colors
+
+// primary text color
+$text-primary-dk3:$primary-dk-3;
+$text-primary-dk2:$primary-dk-2;
+$text-primary-dk1:$primary-dk-1;
+$text-primary:$primary;
+$text-primary-lt1:$primary-lt-1;
+$text-primary-lt2:$primary-lt-2;
+$text-primary-lt3:$primary-lt-3;
+$text-primary-lt4:$primary-lt-4;
+$text-primary-lt5:$primary-lt-5;
+$text-primary-lt6:$primary-lt-6;
+
+
+
+// secondary text color
+$text-secondary-dk3:$secondary-dk-3;
+$text-secondary-dk2:$secondary-dk-2;
+$text-secondary-dk1:$secondary-dk-1;
+$text-secondary:$secondary;
+$text-secondary-lt1:$secondary-lt-1;
+$text-secondary-lt2:$secondary-lt-2;
+$text-secondary-lt3:$secondary-lt-3;
+$text-secondary-lt4:$secondary-lt-4;
+$text-secondary-lt5:$secondary-lt-5;
+$text-secondary-lt6:$secondary-lt-6;
+
+
+// gray text color
+$text-gray-dk3:$gray-dk-3;
+$text-gray-dk2:$gray-dk-2;
+$text-gray-dk1:$gray-dk-1;
+$text-gray:$gray;
+$text-gray-lt1:$gray-lt-1;
+$text-gray-lt2:$gray-lt-2;
+$text-gray-lt3:$gray-lt-3;
+$text-gray-lt4:$gray-lt-4;
+$text-gray-lt5:$gray-lt-5;
+$text-gray-lt6:$gray-lt-6;
+
+
+//  black text  color
+$text-black:$black;
+
+
+//  white text  color
+$text-white:$white;
+
+
+// success text color
+$text-success-dk3:$success-dk-3;
+$text-success-dk2:$success-dk-2;
+$text-success-dk1:$success-dk-1;
+$text-success:$success;
+$text-success-lt1:$success-lt-1;
+$text-success-lt2:$success-lt-2;
+$text-success-lt3:$success-lt-3;
+$text-success-lt4:$success-lt-4;
+$text-success-lt5:$success-lt-5;
+$text-success-lt6:$success-lt-6;
+
+
+
+// warning text color
+$text-warning-dk3:$warning-dk-3;
+$text-warning-dk2:$warning-dk-2;
+$text-warning-dk1:$warning-dk-1;
+$text-warning:$warning;
+$text-warning-lt1:$warning-lt-1;
+$text-warning-lt2:$warning-lt-2;
+$text-warning-lt3:$warning-lt-3;
+$text-warning-lt4:$warning-lt-4;
+$text-warning-lt5:$warning-lt-5;
+$text-warning-lt6:$warning-lt-6;
+
+
+
+// danger text color
+$text-danger-dk3:$danger-dk-3;
+$text-danger-dk2:$danger-dk-2;
+$text-danger-dk1:$danger-dk-1;
+$text-danger:$danger;
+$text-danger-lt1:$danger-lt-1;
+$text-danger-lt2:$danger-lt-2;
+$text-danger-lt3:$danger-lt-3;
+$text-danger-lt4:$danger-lt-4;
+$text-danger-lt5:$danger-lt-5;
+$text-danger-lt6:$danger-lt-6;
+
+
+// Alernate background color
+
+// text alt-1  clr
+$text-alt1-dk3:$alt1-dk-3;
+$text-alt1-dk2:$alt1-dk-2;
+$text-alt1-dk1:$alt1-dk-1;
+$text-alt1:$alt1;
+$text-alt1-lt1:$alt1-lt-1;
+$text-alt1-lt2:$alt1-lt-2;
+$text-alt1-lt3:$alt1-lt-3;
+$text-alt1-lt4:$alt1-lt-4;
+$text-alt1-lt5:$alt1-lt-5;
+$text-alt1-lt6:$alt1-lt-6;
+
+
+
+// text  alt-2 clr
+$text-alt2-dk3:$alt2-dk-3;
+$text-alt2-dk2:$alt2-dk-2;
+$text-alt2-dk1:$alt2-dk-1;
+$text-alt2:$alt2;
+$text-alt2-lt1:$alt2-lt-1;
+$text-alt2-lt2:$alt2-lt-2;
+$text-alt2-lt3:$alt2-lt-3;
+$text-alt2-lt4:$alt2-lt-4;
+$text-alt2-lt5:$alt2-lt-5;
+$text-alt2-lt6:$alt2-lt-6;
+
+
+
+// text  alt-3 clr
+$text-alt3-dk3:$alt3-dk-3;
+$text-alt3-dk2:$alt3-dk-2;
+$text-alt3-dk1:$alt3-dk-1;
+$text-alt3:$alt3;
+$text-alt3-lt1:$alt3-lt-1;
+$text-alt3-lt2:$alt3-lt-2;
+$text-alt3-lt3:$alt3-lt-3;
+$text-alt3-lt4:$alt3-lt-4;
+$text-alt3-lt5:$alt3-lt-5;
+$text-alt3-lt6:$alt3-lt-6;
+
+
+
+//  text alt-4 clr
+$text-alt4-dk3:$alt4-dk-3;
+$text-alt4-dk2:$alt4-dk-2;
+$text-alt4-dk1:$alt4-dk-1;
+$text-alt4:$alt4;
+$text-alt4-lt1:$alt4-lt-1;
+$text-alt4-lt2:$alt4-lt-2;
+$text-alt4-lt3:$alt4-lt-3;
+$text-alt4-lt4:$alt4-lt-4;
+$text-alt4-lt5:$alt4-lt-5;
+$text-alt4-lt6:$alt4-lt-6;
+
+
+
+
+
+
+// border colors
+
+// primary border color
+$border-primary-dk3:$primary-dk-3;
+$border-primary-dk2:$primary-dk-2;
+$border-primary-dk1:$primary-dk-1;
+$border-primary:$primary;
+$border-primary-lt1:$primary-lt-1;
+$border-primary-lt2:$primary-lt-2;
+$border-primary-lt3:$primary-lt-3;
+$border-primary-lt4:$primary-lt-4;
+$border-primary-lt5:$primary-lt-5;
+$border-primary-lt6:$primary-lt-6;
+
+
+
+// secondary border color
+$border-secondary-dk3:$secondary-dk-3;
+$border-secondary-dk2:$secondary-dk-2;
+$border-secondary-dk1:$secondary-dk-1;
+$border-secondary:$secondary;
+$border-secondary-lt1:$secondary-lt-1;
+$border-secondary-lt2:$secondary-lt-2;
+$border-secondary-lt3:$secondary-lt-3;
+$border-secondary-lt4:$secondary-lt-4;
+$border-secondary-lt5:$secondary-lt-5;
+$border-secondary-lt6:$secondary-lt-6;
+
+
+// gray border color
+$border-gray-dk3:$gray-dk-3;
+$border-gray-dk2:$gray-dk-2;
+$border-gray-dk1:$gray-dk-1;
+$border-gray:$gray;
+$border-gray-lt1:$gray-lt-1;
+$border-gray-lt2:$gray-lt-2;
+$border-gray-lt3:$gray-lt-3;
+$border-gray-lt4:$gray-lt-4;
+$border-gray-lt5:$gray-lt-5;
+$border-gray-lt6:$gray-lt-6;
+
+
+//  black border  color
+$border-black:$black;
+
+
+//  white border  color
+$border-white:$white;
+
+
+// success border color
+$border-success-dk3:$success-dk-3;
+$border-success-dk2:$success-dk-2;
+$border-success-dk1:$success-dk-1;
+$border-success:$success;
+$border-success-lt1:$success-lt-1;
+$border-success-lt2:$success-lt-2;
+$border-success-lt3:$success-lt-3;
+$border-success-lt4:$success-lt-4;
+$border-success-lt5:$success-lt-5;
+$border-success-lt6:$success-lt-6;
+
+
+
+// warning border color
+$border-warning-dk3:$warning-dk-3;
+$border-warning-dk2:$warning-dk-2;
+$border-warning-dk1:$warning-dk-1;
+$border-warning:$warning;
+$border-warning-lt1:$warning-lt-1;
+$border-warning-lt2:$warning-lt-2;
+$border-warning-lt3:$warning-lt-3;
+$border-warning-lt4:$warning-lt-4;
+$border-warning-lt5:$warning-lt-5;
+$border-warning-lt6:$warning-lt-6;
+
+
+
+// danger border color
+$border-danger-dk3:$danger-dk-3;
+$border-danger-dk2:$danger-dk-2;
+$border-danger-dk1:$danger-dk-1;
+$border-danger:$danger;
+$border-danger-lt1:$danger-lt-1;
+$border-danger-lt2:$danger-lt-2;
+$border-danger-lt3:$danger-lt-3;
+$border-danger-lt4:$danger-lt-4;
+$border-danger-lt5:$danger-lt-5;
+$border-danger-lt6:$danger-lt-6;
+
+
+// Alernate border color
+
+// border alt-1  clr
+$border-alt1-dk3:$alt1-dk-3;
+$border-alt1-dk2:$alt1-dk-2;
+$border-alt1-dk1:$alt1-dk-1;
+$border-alt1:$alt1;
+$border-alt1-lt1:$alt1-lt-1;
+$border-alt1-lt2:$alt1-lt-2;
+$border-alt1-lt3:$alt1-lt-3;
+$border-alt1-lt4:$alt1-lt-4;
+$border-alt1-lt5:$alt1-lt-5;
+$border-alt1-lt6:$alt1-lt-6;
+
+
+
+// border  alt-2 clr
+$border-alt2-dk3:$alt2-dk-3;
+$border-alt2-dk2:$alt2-dk-2;
+$border-alt2-dk1:$alt2-dk-1;
+$border-alt2:$alt2;
+$border-alt2-lt1:$alt2-lt-1;
+$border-alt2-lt2:$alt2-lt-2;
+$border-alt2-lt3:$alt2-lt-3;
+$border-alt2-lt4:$alt2-lt-4;
+$border-alt2-lt5:$alt2-lt-5;
+$border-alt2-lt6:$alt2-lt-6;
+
+
+
+// border  alt-3 clr
+$border-alt3-dk3:$alt3-dk-3;
+$border-alt3-dk2:$alt3-dk-2;
+$border-alt3-dk1:$alt3-dk-1;
+$border-alt3:$alt3;
+$border-alt3-lt1:$alt3-lt-1;
+$border-alt3-lt2:$alt3-lt-2;
+$border-alt3-lt3:$alt3-lt-3;
+$border-alt3-lt4:$alt3-lt-4;
+$border-alt3-lt5:$alt3-lt-5;
+$border-alt3-lt6:$alt3-lt-6;
+
+
+
+//  border alt-4 clr
+$border-alt4-dk3:$alt4-dk-3;
+$border-alt4-dk2:$alt4-dk-2;
+$border-alt4-dk1:$alt4-dk-1;
+$border-alt4:$alt4;
+$border-alt4-lt1:$alt4-lt-1;
+$border-alt4-lt2:$alt4-lt-2;
+$border-alt4-lt3:$alt4-lt-3;
+$border-alt4-lt4:$alt4-lt-4;
+$border-alt4-lt5:$alt4-lt-5;
+$border-alt4-lt6:$alt4-lt-6;
+
+
+
+
+// width 100%
+$w-100:100%;
+
+// height 100%
+$h-100:100%;
+
+
+
+// Text sizes Variables
+$text-sm-1:  $spc-sm-2;  //10px
+$text-sm-2:  $spc-sm-3;  //12px
+
+$text-rg-1:  $spc-rg-1;  //14px
+$text-rg-2:  $spc-rg-2;  //16px
+$text-rg-3:  $spc-rg-3;  //18px
+$text-rg-4: $spc-rg-4;  //20px
+
+$text-md-1:  $spc-md-1;  //22px
+$text-md-2:  $spc-md-2;  //24px
+$text-md-3:  $spc-md-3;  //28px
+$text-md-4:  $spc-md-4;  //32px
+
+
+$text-lg-1:  $spc-lg-1;  //36px
+$text-lg-2:  $spc-lg-2;  //40px
+$text-lg-3:  $spc-lg-3;  //44px
+$text-lg-4:  $spc-lg-4;  //48px
+
+$text-xlg-: $spc-xlg-1;  //52px
+$text-xlg-: $spc-xlg-2;  //56px
+$text-xlg-: $spc-xlg-3;  //60px
+$text-xlg-: $spc-xlg-4;  //64px

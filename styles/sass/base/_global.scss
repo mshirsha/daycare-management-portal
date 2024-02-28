@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+    scrollbar-width: thin;
+    scrollbar-color: darkgrey lightgrey;
+  
+
+}
+html{
+    font-size: 16px;
+    
+}
+body{
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+  
+       p{
+        cursor: default; 
+       } 
+
+  
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+// Base
+@import"./base/global";
+@import "./base/variables";
+@import "./base/utility";
+@import "./base/typography";
+
+// Components
+@import "./components/header";
+@import "./components/sidebar";
+@import "./components/models";
+@import "./components/cards";
+@import "./components/alerts";
+@import "./components/footer";
+@import "./components/table";
+
+// Eelements
+@import "./elements/buttons";
+@import "./elements/inputs";
+@import "./elements/badges";
+
+//Pages
+@import "./pages-style/dashboard-page";
+
+@import "./pages-style/app-page";
+
+@import "./pages-style/login-page";

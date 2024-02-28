@@ -1,0 +1,121 @@
+
+.alert-btn {
+    border: none;
+    background: none;
+}
+
+
+//  alert panel //
+
+
+.panel {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: max-content;
+    border-radius: .5rem;
+}
+
+.primary-alert{
+    background-color: $bg-primary-lt6;
+   border-radius: unset;
+   border-left: 2px solid  $bg-primary-dk1;
+   width: 100%;
+   padding: 12px;
+   .icon-container {
+    padding-bottom: 1.2rem;
+    
+    svg{
+        width: 24px;
+        height: 24px;
+    }
+}
+    p{
+        margin-bottom: unset;
+        color:$text-primary-dk2 ;
+        font-weight: 600;
+    }
+    span{
+        color:$text-primary-dk2 ;
+    }
+
+}
+
+.secondary-alert{
+    background-color:$bg-secondary-lt4;
+    border: 1px solid $bg-secondary-dk1;
+}
+
+.gray-alert{
+    background-color:$bg-gray-lt4;
+    border: 1px solid $bg-gray-dk1;
+}
+.success-alert{
+    background-color: $bg-success-lt6;
+   border-radius: unset;
+   border-left: 2px solid  $bg-success-dk1;
+   width: 100%;
+   padding: 12px;
+   .icon-container {
+    padding-bottom: 1.2rem;
+    svg{
+        width: 24px;
+        height: 24px;
+    }
+}
+    p{
+        margin-bottom: unset;
+        color:$text-success-dk2 ;
+        font-weight: 600;
+    }
+    span{
+        color:$text-success-dk2 ;
+    }
+
+}
+
+
+.danger-alert{
+    background-color: $bg-danger-lt4;
+    border: 1px solid $bg-danger-dk1;
+
+}
+
+
+
+.warning-alert{
+    background-color: $bg-warning-lt6;
+    border-radius: unset;
+    border-left: 2px solid rgb(224, 148, 7);
+    width: 100%;
+    padding: 12px;
+    .icon-container {
+        padding-bottom: 1.2rem;
+        svg{
+            width: 24px;
+            height: 24px;
+        }
+    }
+     p{
+         margin-bottom: unset;
+         color:$text-warning-dk3 ;
+         font-weight: 600;
+     }
+     span{
+         color:$text-warning-dk3 ;
+     }
+
+}
+
+
+.icon-container {
+    border-radius: 0.45rem;
+    padding: .15rem 0.25rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // svg{
+    //     fill: white;
+    // }
+}
