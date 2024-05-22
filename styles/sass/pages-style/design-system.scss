@@ -1,0 +1,41 @@
+.global-container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 15rem 1fr 15rem;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 1rem;
+    
+    .color-platte-container{
+        display: flex;
+        // gap: 1rem;
+
+        .primary-conatiner{
+           
+        }
+        .color-platte{
+            width: 6rem;
+            height: 3rem;
+           
+          
+        }
+    }
+
+    .main-container{
+        grid-column: 2/3;
+       border-inline:1px solid gray;
+        width: 100%;
+        padding-inline: 1rem;
+    }
+    .text-size-container{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+
+        div:first-child{
+            width: 5rem;
+        }
+    }
+    
+
+}
